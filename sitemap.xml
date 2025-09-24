@@ -2,17 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://sony004.github.io/</loc>
+    <lastmod>2025-09-24T18:44:17+08:00</lastmod>
+  </url><url>
+    <loc>https://sony004.github.io/posts/</loc>
+    <lastmod>2025-09-24T18:35:55+08:00</lastmod>
+  </url><url>
+    <loc>https://sony004.github.io/about/</loc>
+    <lastmod>2025-09-24T18:10:07+08:00</lastmod>
+  </url><url>
+    <loc>https://sony004.github.io/tags/demo/</loc>
+    <lastmod>2025-09-23T15:15:07+08:00</lastmod>
+  </url><url>
     <loc>https://sony004.github.io/posts/my-first-post/</loc>
     <lastmod>2025-09-23T15:15:07+08:00</lastmod>
   </url><url>
-    <loc>https://sony004.github.io/posts/</loc>
-    <lastmod>2025-09-23T15:15:07+08:00</lastmod>
-  </url><url>
-    <loc>https://sony004.github.io/</loc>
+    <loc>https://sony004.github.io/tags/</loc>
     <lastmod>2025-09-23T15:15:07+08:00</lastmod>
   </url><url>
     <loc>https://sony004.github.io/categories/</loc>
   </url><url>
-    <loc>https://sony004.github.io/tags/</loc>
+    <loc>https://sony004.github.io/series/</loc>
   </url>
 </urlset>

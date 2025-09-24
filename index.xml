@@ -6,7 +6,23 @@
     <description>Recent content on Song&#39;s Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 23 Sep 2025 15:15:07 +0800</lastBuildDate><atom:link href="https://sony004.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 24 Sep 2025 18:44:17 +0800</lastBuildDate><atom:link href="https://sony004.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>https://sony004.github.io/about/</link>
+      <pubDate>Wed, 24 Sep 2025 18:10:07 +0800</pubDate>
+      
+      <guid>https://sony004.github.io/about/</guid>
+      
+        <description>&lt;p&gt;我的个人博客！&lt;/p&gt;
+&lt;p&gt;主要会存放一些学习笔记、手搓代码、以及一些关于棒球的东西&amp;hellip;&lt;/p&gt;
+&lt;p&gt;目前在学MPC相关的内容，边学边简单实现&lt;/p&gt;
+&lt;p&gt;也会存放一些刷leetcode的心得。。&lt;/p&gt;
+&lt;p&gt;希望可以保持更新&amp;hellip;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://sony004.github.io/files/resume.pdf&#34;&gt;简历test&lt;/a&gt;&lt;/p&gt;</description>
+      
+    </item>
+    
     <item>
       <title>My First Post</title>
       <link>https://sony004.github.io/posts/my-first-post/</link>
@@ -14,7 +30,7 @@
       
       <guid>https://sony004.github.io/posts/my-first-post/</guid>
       
-        <description>&lt;p&gt;搭建个人博客中&amp;hellip;&lt;/p&gt;</description>
+        <description>&lt;p&gt;还在搭建中&amp;hellip;&lt;/p&gt;</description>
       
     </item>
     
