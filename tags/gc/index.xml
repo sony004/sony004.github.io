@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>GC on Song&#39;s Site</title>
+    <link>https://sony004.github.io/tags/gc/</link>
+    <description>Recent content in GC on Song&#39;s Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 24 Sep 2025 21:01:43 +0800</lastBuildDate><atom:link href="https://sony004.github.io/tags/gc/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GC</title>
+      <link>https://sony004.github.io/posts/gc/</link>
+      <pubDate>Wed, 24 Sep 2025 21:01:43 +0800</pubDate>
+      
+      <guid>https://sony004.github.io/posts/gc/</guid>
+      
+        <description>&lt;p&gt;混淆电路（GC）是一种密码学协议，以实现安全多方计算（MPC）。场景是当多个通信方共同输入数据，通过同一个函数计算出一个结果，但是各个通信方都不允许其他人知道自己的输入是什么。&lt;/p&gt;
+&lt;p&gt;任何函数都可由电路门表示，所以理论上GC可以实现任意函数的计算。&lt;/p&gt;
+&lt;p&gt;混淆电路通过加密和扰乱电路值来掩盖真实的输入信息，加密和扰乱是以门为单位，每个门都有一张真值表，所以加密即加密每个门的真值表。&lt;/p&gt;
+&lt;p&gt;混淆电路（GC） = 不经意传输（OT） + 逻辑电路&lt;/p&gt;
+&lt;h2 id=&#34;流程&#34;&gt;流程&lt;/h2&gt;
+&lt;p&gt;以与门为例。Alice和Bob两方分别拥有数据X和Y（0或1），现在希望双方都不知道对方数据的情况下，计算出逻辑与的结果Z。&lt;/p&gt;
+&lt;h3 id=&#34;步骤一电路加密&#34;&gt;步骤一：电路加密&lt;/h3&gt;</description>
+      
+    </item>
+    
+  </channel>
+</rss>

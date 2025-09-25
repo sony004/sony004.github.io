@@ -6,12 +6,12 @@
   
     class="html theme--light"
   
-><head>
+><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   <meta charset="utf-8" />
   <title>
     Song Ying
         |
-        Song&#39;s Site
+        MP
       
 
     
@@ -26,7 +26,7 @@
   />
   
   
-        <link rel="stylesheet" href="/css/anatole.min.d1a2db4db62630dc690a91ef034ed2fbecab93af4a610b9b8966d9f96705289c.css" integrity="sha256-0aLbTbYmMNxpCpHvA07S&#43;&#43;yrk69KYQubiWbZ&#43;WcFKJw=" crossorigin="anonymous" />
+        <link rel="stylesheet" href="/css/anatole.css" />
       
   <link
     rel="stylesheet"
@@ -66,9 +66,9 @@
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
 
-  <link rel="canonical" href="https://sony004.github.io/" />
+  <link rel="canonical" href="http://localhost:1313/tags/mp/" />
   
-  <link rel="alternate" type="application/rss+xml" href="/index.xml" title="Song's Site" />
+  <link rel="alternate" type="application/rss+xml" href="/tags/mp/index.xml" title="Song's Site" />
   
   
   
@@ -100,15 +100,15 @@
   
   
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Song&#39;s Site">
+  <meta name="twitter:title" content="MP">
   <meta name="twitter:description" content="learning diary">
 
 
 
   
-  <meta property="og:url" content="https://sony004.github.io/">
+  <meta property="og:url" content="http://localhost:1313/tags/mp/">
   <meta property="og:site_name" content="Song&#39;s Site">
-  <meta property="og:title" content="Song&#39;s Site">
+  <meta property="og:title" content="MP">
   <meta property="og:description" content="learning diary">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="website">
@@ -116,19 +116,7 @@
 
 
   
-  <script type="application/ld+json">
-    {
-      "@context": "http://schema.org",
-      "@type": "WebSite",
-      "name": "Song's Site",
-      "url": "https:\/\/sony004.github.io\/",
-      "description": " learning diary",
-      "thumbnailUrl": "https:\/\/sony004.github.io\/",
-      "license": ""
-      
-    }
-  </script>
-
+  
 
 
 
@@ -156,9 +144,7 @@
       />
       
         <div class="sidebar__introduction-title">
-          <h1>
-            <a href="/">Song Ying</a>
-          </h1>
+          <a href="/">Song Ying</a>
         </div>
       
       <div class="sidebar__introduction-description">
@@ -224,8 +210,6 @@
           <li class="nav__list-item">
             
             <a
-              
-                class="nav__link--active"
               
               href="/"
               
@@ -313,139 +297,31 @@
 </div>
 </header>
   <div
-    class="post 
+    class="archive 
       animated fadeInDown
     "
   >
-    <div class="post__content">
+    
+      <div class="archive__heading">2025</div>
       
-    </div>
+        <ul class="archive__list">
+          <li class="archive__list-item">
+            
+              <a class="archive__list-title" href="/posts/gc/" title="GC">GC</a>
+            
+            <div class="archive__list-date">
+              
+                
+                  Sep 24
+                
+
+              
+            </div>
+          </li>
+        </ul>
+      
 
     
-  </div>
-
-  
-
-  
-  
-    <div
-      class="post 
-        animated fadeInDown
-      "
-    >
-      
-      <div class="post__content">
-        
-          <h3><a href="/posts/gc/">GC</a></h3>
-        
-        
-          <p>混淆电路（GC）是一种密码学协议，以实现安全多方计算（MPC）。场景是当多个通信方共同输入数据，通过同一个函数计算出一个结果，但是各个通信方都不允许其他人知道自己的输入是什么。
-任何函数都可由电路门表示，所以理论上GC可以实现任意函数的计算。
-混淆电路通过加密和扰乱电路值来掩盖真实的输入信息，加密和扰乱是以门为单位，每个门都有一张真值表，所以加密即加密每个门的真值表。
-混淆电路（GC） = 不经意传输（OT） + 逻辑电路
-流程 以与门为例。Alice和Bob两方分别拥有数据X和Y（0或1），现在希望双方都不知道对方数据的情况下，计算出逻辑与的结果Z。
-步骤一：电路加密</p>
-        
-        </div>
-
-      
-      <div class="post__footer">
-        <em class="fas fa-calendar-day"></em>
-        <span class="post__footer-date"
-          >
-            
-              Wed, Sep 24, 2025
-            
-
-          </span
-        >
-        
-
-        
-          <span><a class="tag" href="/tags/mpc/">MPC</a><a class="tag" href="/tags/ot/">OT</a><a class="tag" href="/tags/gc/">GC</a></span>
-
-
-        
-      </div>
-    </div>
-  
-    <div
-      class="post 
-        animated fadeInDown
-      "
-    >
-      
-      <div class="post__content">
-        
-          <h3><a href="/posts/ot/">OT</a></h3>
-        
-        
-          <p>1-out-of-2 OT 1-out-of-2 OT使用公钥密码体制，可以实现：Alice 拥有两个秘密(M0,M1)(M_0, M_1)(M0​,M1​)，而 Bob 想要知道其中一个。在 OT 协议执行完成之后，Bob 获得了其中一个秘密，但是不知道另外一条秘密 ，并且 Alice 也不知道 Bob 选择的是M0M_0M0​，还是M1M_1M1​。
-基于公钥加密（RSA）的OT Alice生成两对公私钥，并将两个公钥发送给Bob Bob生成一个随机数r，令v=reb%Nv = r ^ {e_b} \% Nv=reb​%N，并将v发送给Alice Alice用两个私钥解密出v，图中更正：m0=vd0,m1=vd1m_0 = v ^ {d_0}, m_1 = v ^ {d_1}m0​=vd0​,m1​=vd1​，其中一个会是r Bob计算后只会得到一个有效值，即自己选择的那个秘密xbx_bxb​ </p>
-        
-        </div>
-
-      
-      <div class="post__footer">
-        <em class="fas fa-calendar-day"></em>
-        <span class="post__footer-date"
-          >
-            
-              Wed, Sep 24, 2025
-            
-
-          </span
-        >
-        
-
-        
-          <span><a class="tag" href="/tags/mpc/">MPC</a><a class="tag" href="/tags/ot/">OT</a></span>
-
-
-        
-      </div>
-    </div>
-  
-    <div
-      class="post 
-        animated fadeInDown
-      "
-    >
-      
-      <div class="post__content">
-        
-          <h3><a href="/posts/my-first-post/">MY FIRST POST</a></h3>
-        
-        
-          <p>还在搭建中&hellip;
-</p>
-        
-        </div>
-
-      
-      <div class="post__footer">
-        <em class="fas fa-calendar-day"></em>
-        <span class="post__footer-date"
-          >
-            
-              Tue, Sep 23, 2025
-            
-
-          </span
-        >
-        
-
-        
-          <span><a class="tag" href="/tags/demo/">demo</a></span>
-
-
-        
-      </div>
-    </div>
-  
-  <div class="pagination">
-    
-
   </div>
 
       </main>
