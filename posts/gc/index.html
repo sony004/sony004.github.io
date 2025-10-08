@@ -100,12 +100,7 @@
   
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="GC">
-  <meta name="twitter:description" content="混淆电路（GC）是一种密码学协议，以实现安全多方计算（MPC）。场景是当多个通信方共同输入数据，通过同一个函数计算出一个结果，但是各个通信方都不允许其他人知道自己的输入是什么。
-任何函数都可由电路门表示，所以理论上GC可以实现任意函数的计算。
-混淆电路通过加密和扰乱电路值来掩盖真实的输入信息，加密和扰乱是以门为单位，每个门都有一张真值表，所以加密即加密每个门的真值表。
-混淆电路（GC） = 不经意传输（OT） &#43; 逻辑电路
-流程 以与门为例。Alice和Bob两方分别拥有数据X和Y（0或1），现在希望双方都不知道对方数据的情况下，计算出逻辑与的结果Z。
-步骤一：电路加密">
+  <meta name="twitter:description" content="混淆电路（GC）是一种密码学协议，以实现安全多方计算（MPC）。场景是当多个通信方共同输入数据，通过同一个函数计算出一个结果，但是各个通信方都不允许其他人知道自己的输入是什么。">
 
 
 
@@ -113,12 +108,7 @@
   <meta property="og:url" content="https://sony004.github.io/posts/gc/">
   <meta property="og:site_name" content="Song&#39;s Site">
   <meta property="og:title" content="GC">
-  <meta property="og:description" content="混淆电路（GC）是一种密码学协议，以实现安全多方计算（MPC）。场景是当多个通信方共同输入数据，通过同一个函数计算出一个结果，但是各个通信方都不允许其他人知道自己的输入是什么。
-任何函数都可由电路门表示，所以理论上GC可以实现任意函数的计算。
-混淆电路通过加密和扰乱电路值来掩盖真实的输入信息，加密和扰乱是以门为单位，每个门都有一张真值表，所以加密即加密每个门的真值表。
-混淆电路（GC） = 不经意传输（OT） &#43; 逻辑电路
-流程 以与门为例。Alice和Bob两方分别拥有数据X和Y（0或1），现在希望双方都不知道对方数据的情况下，计算出逻辑与的结果Z。
-步骤一：电路加密">
+  <meta property="og:description" content="混淆电路（GC）是一种密码学协议，以实现安全多方计算（MPC）。场景是当多个通信方共同输入数据，通过同一个函数计算出一个结果，但是各个通信方都不允许其他人知道自己的输入是什么。">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
@@ -144,7 +134,7 @@
         "alternativeHeadline": "",
         "description": "
       
-        \u003cp\u003e混淆电路（GC）是一种密码学协议，以实现安全多方计算（MPC）。场景是当多个通信方共同输入数据，通过同一个函数计算出一个结果，但是各个通信方都不允许其他人知道自己的输入是什么。\u003c\/p\u003e\n\u003cp\u003e任何函数都可由电路门表示，所以理论上GC可以实现任意函数的计算。\u003c\/p\u003e\n\u003cp\u003e混淆电路通过加密和扰乱电路值来掩盖真实的输入信息，加密和扰乱是以门为单位，每个门都有一张真值表，所以加密即加密每个门的真值表。\u003c\/p\u003e\n\u003cp\u003e混淆电路（GC） = 不经意传输（OT） \u002b 逻辑电路\u003c\/p\u003e\n\u003ch2 id=\u0022流程\u0022\u003e流程\u003c\/h2\u003e\n\u003cp\u003e以与门为例。Alice和Bob两方分别拥有数据X和Y（0或1），现在希望双方都不知道对方数据的情况下，计算出逻辑与的结果Z。\u003c\/p\u003e\n\u003ch3 id=\u0022步骤一电路加密\u0022\u003e步骤一：电路加密\u003c\/h3\u003e
+        \u003cp\u003e混淆电路（GC）是一种密码学协议，以实现安全多方计算（MPC）。场景是当多个通信方共同输入数据，通过同一个函数计算出一个结果，但是各个通信方都不允许其他人知道自己的输入是什么。\u003c\/p\u003e
 
 
       
@@ -195,7 +185,7 @@
 
     ,
         "url" : "https:\/\/sony004.github.io\/posts\/gc\/",
-        "wordCount" : "11",
+        "wordCount" : "22",
         "genre" : [ ],
         "keywords" : [ 
       
@@ -415,6 +405,17 @@
 <h2 id="流程">流程</h2>
 <p>以与门为例。Alice和Bob两方分别拥有数据X和Y（0或1），现在希望双方都不知道对方数据的情况下，计算出逻辑与的结果Z。</p>
 <h3 id="步骤一电路加密">步骤一：电路加密</h3>
+<p>Alice 将需要计算的函数转换为布尔电路，再对布尔电路中的每个门进行加密操作。</p>
+<p><img src="/images/GC/image-20251008190117713.png" alt="image-20251008190117713"></p>
+<h3 id="步骤二alice发送加密电路和自己的输入标签">步骤二：Alice发送加密电路和自己的输入标签</h3>
+<p>Alice 将每个门的四个密文，以及与自己输入对应的标签发送给Bob。</p>
+<p><img src="/images/GC/Snipaste_2025-10-08_19-07-18.png" alt="image-20251008190117713"></p>
+<h3 id="步骤三bob选择标签">步骤三：Bob选择标签</h3>
+<p>Alice和Bob执行OT协议， Bob根据其输入选取对应的标签。</p>
+<p><img src="/images/GC/Snipaste_2025-10-08_19-29-43.png" alt="image-20251008190117713"></p>
+<h3 id="步骤四bob解密电路并完成计算">步骤四：Bob解密电路并完成计算</h3>
+<p>Bob根据收到的消息（包括加密电路和双方的标签）解密电路，并最终获得计算结果，并将结果返回给Alice。Alice通过混淆后的真值表替换出真实值，并分享给Bob。</p>
+<p>用基础与门举例，Alice其实很容易根据自己的输入及与Bob合作得到的输出推测出Bob的输入，但是实际电路函数不仅仅是一个与门那么简单，所以很难像这个例子一样推测出结果</p>
 
 </div>
     <div class="post__footer">
